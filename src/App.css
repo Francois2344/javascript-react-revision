@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 10%;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #2A2A2AFF;
+  box-shadow: 2px 5px 5px 0px rgba(176,161,161,0.75);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(176,161,161,0.75);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(176,161,161,0.75);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/*.card-body {*/
+
+/*}*/
+
+/*.card-footer {*/
+
+/*}*/
+
+.wilder-footer-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.wilder-footer-skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill {
+  border: 1px solid darkred;
+  border-radius: 5px;
+  padding: 5px;
+}
